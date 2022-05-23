@@ -1,0 +1,64 @@
+.containerRoot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  border: 10px solid rgb(0, 238, 255);
+}
+.containerData {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-color: aqua;
+  align-items: center;
+}
+.containerTable {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dataStyle {
+  font-size: 200px;
+  padding: 20px 0 20px 0;
+  margin: 0px;
+}
+.dayOfWeekStyle {
+  font-size: 30px;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+.data {
+  padding: 7px;
+  text-align: center;
+  color: grey;
+}
+.week {
+  text-align: center;
+  padding: 7px;
+  color: red;
+}
+.monthStyle {
+  color: aqua;
+}
+
+.isMonthFalse {
+  background-color: grey;
+  padding: 7px;
+  text-align: center;
+  color: rgb(85, 81, 81);
+}
+.clickStyle {
+  border: 2px solid red;
+  border-radius: 50%;
+  color: red;
+}
